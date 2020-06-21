@@ -1,4 +1,6 @@
-# app
+# To-Do app
+
+    a basic todo app to practice Vue.js
 
 ## Project setup
 ```
