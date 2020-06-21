@@ -16,23 +16,9 @@ export default {
         TodoItem
     },
     props: ["todos"],
-    methods: {
-        Complete() {
-            this.todos.completed = !this.todos.completed;
-            console.log(this.todos)
-        }
-    }
 }
 </script>
 
 <style scoped>
-    .todo-item {
-        background: #333;
-        padding: 2rem;
-        border-bottom: 1px black dashed;
-    }
-    .is-complete {
-        text-decoration: line-through;
-    }
 
 </style>
