@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld msg="To-Do App" />
+    <Header msg="To-Do App" />
     <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 import Todos from './components/Todos.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Header,
     Todos
   },
   data() {

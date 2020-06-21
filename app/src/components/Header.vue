@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="header">
     <h1>{{ msg }}</h1>
     <h2>{{ about }}</h2>
   </div>
@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Header',
   props: {
     msg: String,
     about: String
@@ -17,11 +17,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello {
-  background-color: #333;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  display: flex;
-  justify-content: center;
-}
+  .header {
+    background-color: #333;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
 </style>
