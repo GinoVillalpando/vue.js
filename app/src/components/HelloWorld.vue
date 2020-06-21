@@ -19,19 +19,9 @@ export default {
 <style scoped>
 .hello {
   background-color: #333;
-}
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 </style>
