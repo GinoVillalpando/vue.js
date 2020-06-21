@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="ToDo App" about="this app will list things you have to do. You'll be able to mark them as completed or imcomplete and delete them or add them."/>
   </div>
 </template>
 
