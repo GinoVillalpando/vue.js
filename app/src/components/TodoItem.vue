@@ -4,6 +4,7 @@
             <p>
                 <input type="checkbox" v-on:change="Complete">
                 {{ todo.title }}
+                <button @click="$emit('del-todo', todo.id)" class="del">x</button>
             </p>
 
         </div>
@@ -32,4 +33,13 @@ export default {
     .is-complete {
         text-decoration: line-through;
     }
+    .del {
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+  }
 </style>
