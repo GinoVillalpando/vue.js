@@ -25,9 +25,10 @@ export default {
     .todo-item {
         background: #333;
         padding: 2rem;
+        margin-top: 1rem;
         margin-left: 2rem;
         margin-right: 2rem;
-        border-bottom: 1px black dashed;
+        border-bottom: 1px white solid;
         display: flex;
         justify-content: space-between;
     }
