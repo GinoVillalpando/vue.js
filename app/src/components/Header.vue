@@ -1,6 +1,6 @@
 <template>
     <v-app-bar max-height="100%" :absolute="true" dark fixed app>
-        <v-toolbar-title>Hi</v-toolbar-title>
+        <v-toolbar-title>To-do App :D</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-menu>
           <template v-slot:activator="{ on, attrs }">
